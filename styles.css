@@ -1,0 +1,391 @@
+body{
+
+    margin:0;
+    padding: 0;
+    box-sizing: auto;
+    background-color: #CFADD9;
+
+}
+
+/*Header*/
+
+
+.logoTec{
+  width: 20%;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.title{
+    background-color: #8E76A6;
+    padding: 10%;
+    text-align: center;
+    color: white; 
+    
+
+}
+
+
+
+.contenedor-imagen {
+    position: relative;
+    text-align: center;
+    color: white;
+
+  }
+  
+ 
+  /* Centered text */
+  .centrado {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .centrado > h1{
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+
+  .serviceTypes{
+    background-color: #CFADD9;
+    padding: 10%;
+  }
+
+  .barraNav{
+    margin-top: 4rem;
+    padding-bottom: 0;
+
+  }
+
+
+  .barraNav > ul > a > li {
+    display: inline;
+    margin: 20px;
+    text-decoration-color: #697AB1;
+    
+  }
+
+
+  .barraNav > ul > li {
+    display: inline;
+    margin: 20px;
+    text-decoration: underline;
+    text-decoration-color: #697AB1;
+  }
+
+  
+  .barraNav > ul > li {
+    display: inline;
+    margin: 20px;
+    color:white;
+    text-decoration: none;
+    background-color: #592A51;
+    padding: 1rem;
+    border-radius: 5px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: #697AB1;
+  }
+
+  .barraNav > ul > li:hover {
+    background-color: #cf70c1;
+    transition: .4s;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+
+  .barraNav > ul > a > li {
+    display: inline;
+    margin: 20px;
+    color:white;
+    text-decoration: none;
+    background-color: #592A51;
+    padding: 1rem;
+    border-radius: 5px;
+    font-weight: 700;
+    text-decoration-color: #697AB1; 
+  }
+
+  .barraNav > ul > a > li:hover {
+    background-color: #cf70c1;
+    transition: .4s;
+  }
+
+
+/*Seccion de conceptos generales*/
+.generalConcept{
+  background-color: #697AB1;
+  padding: 8%;
+  text-align: center;
+    color: white;
+    border-radius: 5px;
+    border-top: 2px solid white;
+}
+
+.accordion{
+  margin-top: 1rem;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3rem;
+  text-align: justify;
+}
+
+.accordion-button:not(.collapsed){
+  background-color: #CFADD9  !important;
+}
+
+.accordion-button{
+  font-weight: 700 !important;
+  color:white !important;
+  background-color: #697AB1 !important;
+}
+
+.accordion-body{
+  font-weight: 600 !important;
+}
+
+.title1{
+  border-radius: 5px;
+  background-color: #8E76A6;
+}
+
+
+
+
+
+
+
+/*Seccion Servicios Nube Tipos*/
+
+
+.serviceTypes{
+  border-top: 2px solid white;
+}
+
+.title2 {
+  background-color: #8E76A6;
+  padding: 10%;
+  text-align: center;
+  color: white; 
+  border-radius: 5px;
+  
+  
+
+}
+
+.title2 > h2{
+  margin-bottom: 2rem;
+}
+
+  
+.descripcion{
+  text-align: justify;
+}
+
+.imageCard{
+  width: 50%;
+}
+
+
+.desc1{
+  font-weight: 600;
+  font-size: larger;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+
+/*Seccion patrones de diseño*/
+
+.designPatterns{
+  background-color: #C77FAB;
+  padding: 10%;
+  border-top: 2px solid white;
+}
+
+
+.title3 {
+  text-align: center;
+  color: white; 
+  border-radius: 5px;
+
+}
+
+.desc2{
+  color:white;
+  font-weight: 500;
+  border-radius: 5px;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.table{
+  border-spacing: 4px;
+  border-collapse: separate;
+} 
+.tableColor{
+  background-color: #8E76A6 !important;
+  border-radius: 5px;
+  border: 0 !important; 
+  vertical-align: middle;
+}
+
+.patronImg{
+  width: 45%;
+}
+
+.btnPatron{
+  position:absolute;
+  right: 15%;
+}
+/*Seccion de estandares de servicio*/
+.serviceStandard{
+  margin:0;
+  margin-bottom: 0 !important;
+  border-top: 1px solid white;
+}
+
+.title4 {
+  background-color: #CFADD9 !important;
+  padding: 10%;
+  text-align: center;
+  color: white; 
+  border-radius: 5px;
+}
+
+.estandares{
+  background-color: #8E76A6;
+  border-radius: 5px;
+}
+
+
+.desc3{
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+.desc4{
+  color:white;
+  font-weight: 500;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;  
+}
+
+
+.desc4 > img{ 
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 6px;
+}
+.patronImg2{
+  width: 45%;
+  text-align: center;
+}
+
+.tableTitle{
+  text-align: center;
+}
+
+.normas{
+  color: #592A51;
+}
+
+/*FOOTER*/
+.dev{
+  margin: 0;
+  font-weight: 700;
+  display: inline;
+  text-align: center !important;
+}
+
+footer{
+border-top: 1px solid white;;
+ background-color: #697AB1 !important;
+ padding: 20px;
+ text-align: center;
+ color: white;
+}
+
+footer > img{
+display: inline;
+margin-left: 4rem;
+vertical-align: middle;
+}
+
+
+
+/*Extras */
+/*Scroll button*/
+#scroll-top-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: none;
+  z-index: 9999;
+  width: 50px;
+  height: 50px;
+  background-image: url(cat.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  border-radius: 50%;
+  border: solid 1px white;
+}
+
+
+#scroll-top-btn:hover {
+  opacity: 0.7;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.btn-primary{
+ background-color: #76c2e2 !important;
+ font-weight: 600 !important;
+ border-color: #CFADD9 !important;
+}
+
+.btn-primary:hover{
+  opacity: 0.8 !important;
+ }
+
